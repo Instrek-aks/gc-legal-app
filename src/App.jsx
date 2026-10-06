@@ -130,7 +130,7 @@ export default function App() {
         <div className="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
           <div className="gate-box">
             {/* NOTE: Please replace the src with the actual base64 string from line 282 in in.html */}
-            <img src="data:image/png;base64,PLACEHOLDER_FOR_GATE_IMAGE" alt="Bar Council" />
+            <img src="/gate.png" alt="Bar Council" />
             <h2 id="gateTitle">Disclaimer</h2>
             <p>The Bar Council of India does not permit advertisement or solicitation by advocates. By accessing this website, you acknowledge and confirm that you are seeking information relating to G&amp;C Legal of your own accord, and that there has been no form of solicitation, advertisement or inducement by the firm or its members.</p>
             <p>The contents of this website are for informational purposes only and should not be construed as legal advice or as the creation of an advocate-client relationship. The firm is not liable for any consequence of any action taken by the user relying on material or information provided here.</p>
@@ -147,7 +147,7 @@ export default function App() {
         <div className="wrap head-in">
           <a className="brand" href="#top">
             {/* NOTE: Please replace the src with the actual base64 string from line 297 in in.html */}
-            <img src="data:image/png;base64,PLACEHOLDER_FOR_LOGO_IMAGE" alt="G&C Legal Logo" />
+            <img src="/logo.png" alt="G&C Legal Logo" />
             <span>Advocates<br />&amp; Solicitors</span>
           </a>
           <button 
